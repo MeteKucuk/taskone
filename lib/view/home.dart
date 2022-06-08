@@ -4,9 +4,8 @@ import 'package:get_storage/get_storage.dart';
 import 'package:task_bilclick/bloc/network_bloc.dart';
 import 'package:task_bilclick/utilities/extension.dart';
 import 'package:task_bilclick/view/books_list.dart';
-
-import 'data/books_api.dart';
-import 'model/books_model.dart';
+import '../data/books_api.dart';
+import '../model/books_model.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
